@@ -13,21 +13,21 @@ while True:
         celsius = float(input("Ingrese temperatura en °C: "))
         fahrenheit = (celsius * 9 / 5) + 32
         kelvin = celsius + 273.15
-        print(f"{celsius}°C equivalen a {fahrenheit:.2f}°F y {kelvin:.2f}K\n")
+        print(f"\n{celsius}°C equivalen a {fahrenheit:.2f}°F y {kelvin:.2f}K\n")
 
     elif opcion == "2":
         pesos = int(input("Ingrese cantidad en Pesos: "))
         tasa_cambio = 950
         dolares = pesos / tasa_cambio
         print(
-            f"${pesos} pesos equivalen a ${dolares:.2f} dólares (1 USD = {tasa_cambio} pesos)"
+            f"\n${pesos} pesos equivalen a ${dolares:.2f} dólares (1 USD = {tasa_cambio} pesos)"
         )
 
     elif opcion == "3":
         metros = float(input("Ingrese longitud en metros: "))
         centimetros = metros * 100
         kilometros = metros / 1000
-        print(f"{metros} m equivalen a {centimetros:.2f} cm y {kilometros:.3f} km")
+        print(f"\n{metros} m equivalen a {centimetros:.2f} cm y {kilometros:.3f} km")
 
     elif opcion == "4":
         print("\nHasta luego!\n")
